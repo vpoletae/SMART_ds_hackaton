@@ -1,5 +1,5 @@
 Deployment on Heroku (Features/Vectors XGBoost + LDA)
-https://my-smartrec-app.herokuapp.com/
+https://smart-product.herokuapp.com/
 
 
 ngrok (full model including neural nets)
