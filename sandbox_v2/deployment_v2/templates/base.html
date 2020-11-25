@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	
+    <title>SMART-анализ целей</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" media="screen" href="static/bootstrap.min.css">
+	<link rel="stylesheet" href="static/bootstrap-theme.min.css">
+     <!--  <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}" > -->
+	  
+   <!--  <link rel="stylesheet" href="styles.css" > -->
+    <style>
+	*{
+		font-family: 'Montserrat', sans-serif;
+	}
+	body {
+		padding-top: 1rem;
+		background: #34383D;
+	}
+	.container{
+      
+		text-align: left;
+		color:#F4F4F4;	   
+	}
+	.container h3{
+		color:#F4F4F4;
+	}
+	.container label{
+		color: #F4F4F4;
+	}
+		
+	.container input{
+      	flex: 1;
+		padding: 1em 1em;
+		border: 0;
+		width:70%;
+		box-sizing: border-box;
+		color: rgb(255, 255, 255);
+		
+		font-size: 0.8rem;
+		
+		border-radius: 5px;			
+		background: #1C1E21;	
+	}
+	
+	.container input:focus{
+		color: rgb(255, 255, 255);
+	}
+	
+	.btn input{
+
+		width: 200px;
+		height: 45px;
+		
+		border-radius: 45px;
+		margin: 10px 20px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 11px;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 3px;
+		font-weight: 600;
+		color: #524f4e;
+		background: white;
+		box-shadow: 0 8px 15px rgba(0,0,0,.1);
+		transition: .3s;
+	}	
+	
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+
+        {% block content %}
+        {% endblock %}
+
+    </div>
+  </body>
+
+<footer class="text-muted">
+    <div class="container text-center">
+        <p>SMART</p>
+    </div>
+</footer>
+
+</html>

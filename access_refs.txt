@@ -1,0 +1,6 @@
+Deployment on Heroku (Features/Vectors XGBoost + LDA)
+https://my-smartrec-app.herokuapp.com/
+
+
+ngrok (full model including neural nets)
+@vpoletae - for launch on localhost and tunnel via ngrok

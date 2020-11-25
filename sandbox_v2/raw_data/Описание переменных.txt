@@ -1,0 +1,42 @@
+goal_id - идентификатор цели
+goal_name - формулировка цели
+goal_result - "Есть ли у Вас образ результата по этой цели?"
+goal_form_id - идентификатор цели 2
+goal_form_num - номер цели в анкете
+goal_type - "К какому типу запроса относится Ваша цель?"
+goal_first_step - "Каким может быть первый шаг для достижения данной цели? С чего бы Вы начали?"
+goal_domain - "К какой тематической области относится Ваша цель? (К какой конкретной сфере относится эта цель?)"
+goal_obstacle - "Какие Вы видите преграды для достижения этой цели? Что может помешать?"
+goal_time - "Сколько времени, как Вам кажется, может занять достижение Вами данной цели?"
+goal_sex - пол
+goal_age - возраст 
+goal_city - город
+goal_education - образование
+goal_activity - основное занятие
+goal_job - сфера профессиональной занятости
+
+label_id - идентификатор разметки в базе
+label_form_id - идентификатор цели 2 / техническая
+label_user_id - идентификатор размечающего
+label_goal_id - идентификатор цели
+label_num - техническая
+label_specific - специфичность (0 = нет, 1 = да)
+label_attainable - достижимость (0 = нет, 1 = да)
+label_time_bound - ограниченность во времени (0 = нет, 1 = да)
+label_education - относится к самообразованию и саморазвитию (0 = нет, 1 = да)
+label_unambiguity - немножественность в формулировке (0 = нет, 1 = да)
+label_attractor_knowledge - Знание (0 = нет, 1 = да)
+label_attractor_hard_skill - Умение/навык hard (0 = нет, 1 = да)
+label_attractor_soft_skill - Умение/навык soft (0 = нет, 1 = да)
+label_attractor_tool - Инструменты (0 = нет, 1 = да)
+label_attractor_community - Сообщество (0 = нет, 1 = да)
+label_attractor_subjectivity - Agency, субъектность (0 = нет, 1 = да)
+label_attractor_habits - Привычки (0 = нет, 1 = да)
+label_attractor_career - Карьера (0 = нет, 1 = да)
+label_attractor_fixing - Нормативное закрепление (0 = нет, 1 = да)
+label_attractor_art - Творчество и созидание (0 = нет, 1 = да)
+label_attractor_health - Здоровье и спорт (0 = нет, 1 = да)
+label_abstraction_level - уровень абстракции
+label_questions - "Какие уточняющие вопросы Вы бы задали по этой цели?" (выбор из списка)
+label_custom_question - "Какие уточняющие вопросы Вы бы задали по этой цели? / ДРУГОЕ" (ввод вопроса)
+label_with_context - наличие информации по человеку (goal_sex, goal_age, goal_city, goal_education, goal_activity, goal_job) при разметке цели коучем
